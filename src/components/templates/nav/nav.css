@@ -1,0 +1,26 @@
+.nav {
+  width: 90%;
+  float: left;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  margin: 0 5%;
+}
+.nav .logo {
+  width: 20%;
+  float: left;
+}
+.nav .logo img {
+  width: 50%;
+  /* float: left; */
+  /* color: black; */
+}
+.nav .content {
+  width: 70%;
+  height: 60px;
+}
+.nav .content p {
+  float: right;
+  cursor: pointer;
+  padding: 2%;
+}

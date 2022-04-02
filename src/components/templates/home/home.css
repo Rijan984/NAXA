@@ -1,0 +1,85 @@
+.home {
+  width: 100%;
+  float: left;
+}
+.home .content {
+  width: 90%;
+  margin: 0 5%;
+  float: left;
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .innerContent {
+  float: left;
+  border-radius: 10px;
+  width: 45%;
+  cursor: pointer;
+  height: auto;
+  margin: 20px 20px;
+  color: white;
+  background-color: rgb(88, 88, 255);
+}
+.home .innerContent .lowCnt {
+  width: 100%;
+}
+.home .lowCnt div {
+  /* margin-right: 30px; */
+  width: 45%;
+  /* font-size: 13px; */
+  margin: 0 0 0 3.33%;
+  float: left;
+  /* border: 1px solid red; */
+}
+
+.home .photo {
+  width: 100%;
+  float: left;
+  /* background: #f4f4f4; */
+}
+.home .photo img {
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+.modal.show .modal-dialog {
+  width: 80vw;
+
+  height: 90vh;
+  margin: 5vh 10vw;
+}
+.modal-body .modalPic {
+  width: 100%;
+  float: left;
+}
+.modal-body img {
+  width: 30%;
+  float: left;
+}
+.modelPicCnt {
+  width: 70%;
+  padding: 1%;
+  float: left;
+}
+.modelPicCnt span {
+  color: #ffab00;
+}
+.modal-body .div {
+  width: 100%;
+  float: left;
+}
+.modal-body .div .left {
+  width: 50%;
+  float: left;
+}
+.modal-body .div .right {
+  width: 50%;
+  float: left;
+}
+.modal-body .description {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
